@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+#header {
+  background-color: #343A40;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+}
+
+#title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.sub {
+  font-size: 1em;
+  color:rgb(171, 171, 179);
+  text-align: center;
+}
+
+#home {
+  color: #fff;
+  margin-left: 30em;
+}
+
+#header-img {
+  background-image: url(../../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+  filter: brightness(50%);
+}
