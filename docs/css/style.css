@@ -4,7 +4,7 @@ body {
 }
 
 #header {
-  background-color: #343A40;
+background-color: #343A40;
   width: 100%;
   height: auto;
   padding: 1em;
@@ -12,24 +12,206 @@ body {
 
 #title {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-weight: 400;
 }
 
 .sub {
   font-size: 1em;
   color:rgb(171, 171, 179);
-  text-align: center;
+  display: inline-block;
+  margin-right: 1em;
+  margin-top: 0.4em;
 }
+
 
 #home {
   color: #fff;
-  margin-left: 30em;
+object-position: right;
 }
 
-#header-img {
-  background-image: url(../../img/header.jpg);
+.fa-bars {
+  color: #fff;
+  font-size: 1.5em;
+  border: 0.09em solid #fff;
+  padding: 0.2em;
+  border-radius: 3px;
+  text-align: right;
+  }
+
+  .menu-h {
+    display: none!important;
+
+  }
+
+  #img1 {
+    background-image: url(../../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30em;
+  }
+
+  #img1 h1 {
+    color: #fff;
+    font-size: 6em;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+
+  }
+
+
+  #space {
+    height: 10em;
+  }
+
+#img1 h1 span {
+  display: block;
+  color: #fff;
+  font-size: 0.5em;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 3.1em;
+
+}
+
+
+
+#for-those, #salute, #let-there {
+  margin-top: 10em;
+  margin-left: 6em;
+  margin-right: 4em;
+}
+
+
+#for-those h1, #salute h1, #let-there h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+#for-those p, #salute p, #let-there p {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 1em;
+
+}
+
+
+
+#for-those-img, #salute-img, #let-there-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30em;
-  filter: brightness(50%);
+  background-position: center;
+  margin-top: 2em;
+}
+
+#for-those-img {
+  background-image: url(../../img/rock1.jpg);
+}
+
+#salute-img {
+  background-image: url(../../img/rock3.jpg);
+}
+
+#let-there-img {
+  background-image: url(../../img/rock2.jpg);
+}
+
+footer {
+  margin-top: 3em;
+  height: 6em;
+  background-color: #343A40;
+  color: #fff;
+  text-align: center;
+}
+
+.foot {
+  font-weight: 400;
+  margin-top: 3em;
+  font-size: 1em;
+}
+
+@media (max-width: 768px){
+  #img1 {
+    height: 37.5em;
+  }
+}
+
+
+@media (max-width: 757px)  {
+  #img1 {
+    height: 37.3em;
+  }
+
+
+}
+
+@media (max-width: 504px) {
+  #img1 {
+    height: 41em;
+  }
+
+}
+
+@media (max-width: 415px)  {
+  #img1 {
+    height: 48em;
+  }
+
+}
+
+@media  (max-width: 1299px) {
+  #for-those, #salute, #let-there {
+    width: 50%;
+  }
+  #for-those,  #let-there {
+    margin-left: 0;
+  }
+
+#salute {
+  margin-top: 1em;
+  margin-left: 4em;
+}
+#for-those{
+  margin-top: 5em;
+}
+#for-those-img, #let-there-img {
+  margin-left: 5em;
+}
+
+#salute-img{
+  margin-top: 7em;
+}
+}
+
+
+@media (max-width: 1199px){
+  .hide-after{
+    display: none!important;
+    }
+
+  .menu-h {
+    display: block!important;
+  }
+}
+
+@media (max-width: 450px) {
+  #for-those, #salute, #let-there {
+    width: 60%;
+  }
+  #for-those-img, #salute, #let-there-img {
+    margin-left: 1.5em;
+  }
+  #let-there-img{
+    margin-top: 1em;
+  }
+  #let-there {
+    margin-top: 7em;
+  }
+  #salute{
+    margin-left: 2em;
+  }
 }
